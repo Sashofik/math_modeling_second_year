@@ -1,17 +1,19 @@
-class Ball(object):
+class Method:
     R = 6
     def __init__(self, col):
         self.col = col
+        self.x = 0
+        self.y = 0
 
     def prin(self):
         print(self.col)
-        print(Ball.R)
+        print(self.R)
 
     def initiat(self):
         print("Инициирую вывод параметров...")
         self.prin()
 
-ball_1 = Ball('red')
+ball_1 = Method('red')
 #print(ball_1.prin())
 ball_1.R = 12
 ball_1.initiat()
