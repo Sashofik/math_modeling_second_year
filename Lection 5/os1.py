@@ -5,4 +5,3 @@ def gener():
 gen = gener()
 for i in range(10):
     print(next(gen))
-

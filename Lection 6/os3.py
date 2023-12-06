@@ -10,3 +10,4 @@ def calculate_area(shape, *args):
     exec(data[shape][1])
 
 calculate_area("треугольник", 4, 7)
+calculate_area("круг", 4, 7)

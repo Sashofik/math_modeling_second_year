@@ -29,7 +29,7 @@ while True:
     elif ot == '':
         prot = otvet
         prznak = znak
-        prchis = prchis + prchis
+        prchis = prchis
         ot = ''
         continue
     elif ot == 'z':
