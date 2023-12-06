@@ -1,9 +1,11 @@
 def ug_chisol(niz, ver, ug_chis):
     if ug_chis < int((niz + ver) / 2):
+        #print("Число меньше", int((niz + ver)))
         ver  = int((niz + ver) / 2)
         ug_chisol(niz, ver, ug_chis)
 
     elif ug_chis > int((niz + ver) / 2):
+       # print("Число больше", int((niz + ver)))
         niz = int((niz + ver) / 2)
         ug_chisol(niz, ver, ug_chis)
 
