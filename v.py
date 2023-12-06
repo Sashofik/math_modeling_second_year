@@ -1,9 +1,5 @@
-class Planet:
-   # @staticmethod
-    def is_big_planet(diameter):
-        if diameter > 10000:
-            return True
-        else:
-            return False
+import numpy as np
 
-print(Planet.is_big_planet(100))
+vector1 = np.array([2, 4, 5])
+vector2 = np.array([22, 44, 55])
+print(vector1*vector2)
